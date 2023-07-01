@@ -24,7 +24,7 @@ body {
 }
 
 .header{
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 25%;
@@ -44,4 +44,8 @@ nav {
 
 ul li {
     list-style-type: none;
+}
+
+main{
+    width: 75%;
 }
