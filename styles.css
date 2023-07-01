@@ -17,13 +17,19 @@ body {
     background-color: blue;
 }
 
+.sidebar{
+    margin-right: 0%;
+    width: 25%;
+    background-color: aqua;
+}
+
 .header{
     position: fixed;
     top: 0;
     left: 0;
     width: 25%;
     padding: 20px 10%;
-    background:transparent;
+    background: rgba(252, 14, 14, 0.664);
 }
 
 nav {
