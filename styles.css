@@ -26,7 +26,7 @@ body {
 
 .header{
     position: relative;
-    /* width: 25%; */
+    width: 100%;
     padding: 20px 10%;
     background: rgba(252, 14, 14, 0.664);
 }
