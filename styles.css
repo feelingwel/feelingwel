@@ -48,3 +48,14 @@ ul li {
 main{
     width: 75%;
 }
+
+.image-cover {
+    font-family: 'object-fit: cover;';
+    height: calc(100% + 2px);
+    left: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% + 2px);
+}
