@@ -30,7 +30,14 @@ body {
     color: black;
     text-decoration: none;
     font-weight: 600;
-    pointer-events: none;
+    /* pointer-events: none; */
+}
+
+.logo.active,
+.logo:hover {
+    background: linear-gradient(45deg, rgb(22, 139, 9),rgb(255, 255, 60));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .navbar a {
@@ -87,7 +94,7 @@ body {
     height: 48px;
     border-radius: 40px;
     font-size: 17px;
-    color: rgb(0, 72, 255);
+    color: black;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
