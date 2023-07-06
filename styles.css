@@ -284,8 +284,6 @@ section {
 .portfolio-container .portfolio-box {
     position: relative;
     display: flex;
-    /* border-radius: 1rem;
-    box-shadow: 0 0 1rem black; */
     overflow: hidden;
 }
 
@@ -305,7 +303,6 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    /* background: linear-gradient(green); */
     color: white;
     display: flex;
     justify-content: center;
@@ -332,6 +329,10 @@ section {
 
 .contact h2 {
     margin-bottom: 3rem;
+}
+
+.contact p {
+    text-align: center;
 }
 
 .contact form {
@@ -370,10 +371,10 @@ section {
 .contact form .btn {
     margin-top: 2rem;
     cursor: pointer;
+    background: linear-gradient(45deg, rgb(22, 139, 9),rgb(255, 255, 60));
 }
 
-/* .submitbtn {
-    display: inline-block;
-    padding: 1.2rem 2.8rem;
+.contact form .btn:hover {
+    background: linear-gradient(rgb(22, 139, 9),rgb(255, 255, 60));
+}
 
-} */
